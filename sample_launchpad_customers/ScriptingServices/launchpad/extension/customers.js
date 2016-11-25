@@ -6,19 +6,18 @@ const CONTROLLER_LOCATION = '/db/dirigible/registry/public/ScriptingServices/lau
 
 exports.getMenuItem = function() {
 	return {
-		name:"Customers",
-		link:"#/customers"
+		name: 'Customers',
+		link: '#/customers'
 	};
 };
 
 exports.getHomeItem = function(){
 	return {
-		image: "user-circle-o",
-		color: "red",
-		path: "#/customers",
-		title: "Customers",
-		description: "Northwind Customers",
-		newTab: true
+		image: 'user-circle-o',
+		color: 'red',
+		path: '#/customers',
+		title: 'Customers',
+		description: 'Northwind Customers'
 	};
 };
 
