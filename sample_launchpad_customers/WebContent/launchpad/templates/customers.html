@@ -1,0 +1,18 @@
+<h1>Northwind - Customers</h1>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>City</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="customer in customers">
+        <td>{{customer.CompanyName}}</td>
+        <td>{{customer.ContactName}}</td>
+        <td>{{customer.City}}</td>
+      </tr>
+    </tbody>
+  </table>
